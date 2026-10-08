@@ -10,24 +10,27 @@ int main() {
     int t;
     int porsi[2];
     int total[2];
+    int all;
    
-    for (t=0; t<1; t++) {
+    for (t=0; t<2; t++) {
+       cout<< "......SOTO......"<<endl;
        cout<< "Menu ";
        cout<< menu[0]<<endl;
        cout<<"Harga ";
-       cout<< harga[t]<<endl;
+       cout<< harga[0]<<endl;
        cout<<"Masukkan Porsi ";
        cin>> porsi[t];
        cout<< "total ";
-       cout<< total[t];
+       cout<< harga[t]*porsi[t]<<endl;
+       cout<< "............RAWON............"<<endl;
        cout<< "Menu ";
        cout<< menu[1]<<endl;
        cout<<"Harga ";
-       cout<< harga[t]<<endl;
+       cout<< harga[1]<<endl;
        cout<<"Masukkan Porsi ";
        cin>> porsi[t];
        cout<< "Total ";
-       cout<< total[t];
+       cout<< harga[1]*porsi[t]<<endl;
     }
 
     return 0;
