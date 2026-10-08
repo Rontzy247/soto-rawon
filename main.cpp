@@ -6,7 +6,7 @@ using namespace std;
 int main() {
     // Write C++ code here
     string menu[2]={"soto","rawon"};
-    int harga[2]={15000,10000};
+    int harga[2]={15000,20000};
     int t;
     int porsi[2];
     int total[2];
